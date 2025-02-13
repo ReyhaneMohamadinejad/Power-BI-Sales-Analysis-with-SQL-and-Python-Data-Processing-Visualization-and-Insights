@@ -10,14 +10,22 @@ SQL (for structured data storage and querying)
 Utilized JOIN operations to integrate multiple tables and create a comprehensive dataset.
 Power BI (for data visualization and analysis)
 Used DAX measures and calculated columns for advanced data calculations and analysis.
+
+
 📂 Project Workflow
+
+
 1️⃣ Data Preparation (Excel → SQL)
 The raw sales data was stored in four Excel files.
 Using Pandas and SQLAlchemy in Python, the data was cleaned and uploaded into a SQL database.
 JOIN operations were used in SQL to merge data from different tables (e.g., sales transactions, product details, and categories) into a single dataset suitable for analysis.
+
+
 2️⃣ Data Extraction (SQL → Power BI)
 Power BI was used to connect to the SQL database and extract the structured data.
 The SQL query results, which were enriched with JOIN operations, provided a comprehensive dataset for reporting.
+
+
 3️⃣ Data Analysis & Visualization
 Various DAX measures and calculated columns in Power BI were created to analyze key metrics:
 
@@ -26,6 +34,8 @@ Total Returns → A measure to calculate the amount of returned sales.
 Loss Amount → A calculated column that determines the difference between wholesale price and selling price, multiplied by the quantity sold.
 Loss Rate → A measure to calculate the percentage of loss in relation to total sales.
 Return Rate → A measure to calculate the ratio of returned products to total sales.
+
+
 4️⃣ Insights and Reporting
 Visual dashboards were created to monitor sales trends, loss rates, and return patterns over time.
 Category and product-level analyses were conducted to identify high-loss or high-return items.
