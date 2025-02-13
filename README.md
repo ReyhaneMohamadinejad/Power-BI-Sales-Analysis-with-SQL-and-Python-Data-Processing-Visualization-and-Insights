@@ -39,3 +39,7 @@ Time-Series Trends and Sales Performance Dashboard were created to monitor sales
 5. Total Profit Analysis by Category, Year, and Month
 6. Comprehensive Sales and Return Analysis by Category
 7. Total Loss Rate per Category
+
+
+To receive the Excel data file, please visit the link below:
+https://www.kaggle.com/code/reaganoc/eda-supermarket-sales-datasets-using-sqlalchemy/notebook
